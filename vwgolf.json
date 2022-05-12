@@ -1,0 +1,5 @@
+[
+    {"marca":"Volkswagen", "modelo":"Golf Mk4", "motorizacion":"1.6 16v", "tipoMotor":"4 en línea", "potencia":"109 bhp", "maxRPM":"5800 rpm",
+    "traccion":"FWD", "velMax":"194 km/h", "batalla":"2510 mm", "longitud":"4150 mm", "ancho":"1740 mm", "frenos":"A disco en las 4 ruedas", "peso":"1092 kg", "suspension":"Independiente McPherson", "consumoMedio":"6.2 L / 100km", "alimentacion":"Inyección Directa", "transmision":"5 velocidades", "distribucion":"SOHC", "parMax":"155 Nm"
+    }
+]

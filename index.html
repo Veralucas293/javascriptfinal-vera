@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./estilos/estilos.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="logotipo">
+    <img src="./assets/Premium Car Garage.png" alt="logotipo">
+  </div>
+  <div class="tarjetas col-12">
+    <div class="col-3 col-s-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./assets/DSC_0662.JPG" alt="frontmerc" style="width:250px;height:350px">
+          </div>
+          <div class="flip-card-back">
+            <img src="./assets/DSC_0651.JPG" alt="backmerc" style="width: 250px;height: 350px;">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-3 col-s-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./assets/DSC_0653 (1) (1).jpg" alt="frontfiat" style="width:275px;height: 350px;">
+          </div>
+          <div class="flip-card-back">
+            <img src="./assets/DSC_0649 (1)(1).jpg" alt="backfiat" style="width: 275px;height: 350px;">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-3 col-s-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./assets/DSC_0649(2).JPG" alt="frontvw" style="width:250px;height: 350px;">
+          </div>
+          <div class="flip-card-back">
+            <img src="./assets/DSC_0647(2).JPG" alt="backvw" style="width: 250px;height: 350px;">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-3 col-s-12">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./assets/DSC_0688(2).jpg" alt="frontalfa" style="width:275;height: 350px;">
+          </div>
+          <div class="flip-card-back">
+            <img src="./assets/DSC_0727.JPG" alt="backalfa" style="width: 275;height: 350px;">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <br> <br> <br>
+<div class="informacion">
+  <div class="col-3 col-s-12">
+    <h3>Mercedes-Benz 280 SLC.</h3>    
+    Un vehiculo muy amado, así como conocido. Sin duda es algo que muestra gran porte en la marca, así como clase y fanatismo. Un pura sangre alemán que no deja de sacar sonrisas.
+  </div>
+  <div class="col-3 col-s-12">
+    <h3>Fiat 132 Climatizzata</h3>
+    Una figurita muy difícil de ver normalmente, muy desconocido también más por parte de la gente de LATAM. Un italiano con finos detalles que te dejan boquiabierto siempre.
+  </div>
+  <div class="col-3 col-s-12">
+    <h3>Volkswagen Golf MK4</h3>
+    El Volkswagen más codiciado durante la epoca de los 2000 a 2010, muy conocido, muy amado y muy valorado. La versión gti es la más potente de ellas y así de dificil es poder encontrar uno.
+  </div>
+  <div class="col-3 col-s-12">
+    <h3>Alfa Romeo 164 Super V6</h3>
+    El italiano más pura sangre y más frenético del condado, su V6 de 3.0 Litros no dejaran de asombrarte ni en curvas ni en rectas. En su versión PROCAR fue bautizado como el F1 con traje de calle.
+  </div>
+</div>
+<br>
+<div class="specifications">
+  <div>
+    <button id="mercedes">Ver Mercedes Specs</button>
+    <ul id="mercedesSpecs">
+      
+    </ul>
+
+  </div>
+  <div>
+    <button id="fiat">Ver Fiat Specs</button>
+    <ul id="fiatSpecs">
+
+    </ul>
+
+  </div>
+  <div>
+    <button id="volkswagen">Ver Volkswagen Specs</button>
+    <ul id="vwSpecs"></ul>
+
+  </div>
+  <div>
+    <button id="alfaRomeo">Ver Alfa Romeo Specs</button>
+    <ul id="alfaSpecs">
+
+    </ul>
+
+  </div>
+
+</div>
+
+<main id="contenido">
+  <h1>Coches de ensueño!</h1>
+  <p>Dejanos comentado que coches te gustaría ver fotografiados en la proxima sesión de Pepo's Garage:</p>
+  <form id="formulario">
+      <label for="choice">Mi elección</label><br>
+      <textarea id="choice"></textarea>
+      <button type="submit">5ta a fondo!</button>
+  </form>
+  <div>
+      <h2>Lista de coches por agregar:</h2>
+      <ul id="lista-elegida"></ul>
+  </div>
+</main>
+  <script src="./javascript/app.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+
+</html>
